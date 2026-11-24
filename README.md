@@ -1,16 +1,63 @@
-# React + Vite
+#  Yuvi — Rede Social em React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **Yuvi** é uma aplicação web inspirada no layout e nas interações principais do Instagram, desenvolvida em **React + Vite**. 
 
-Currently, two official plugins are available:
+Em vez de um feed genérico, a proposta da Yuvi é reunir publicações temáticas criadas por personagens fictícios que representam universos de arte, magia, amizade, moda e ciência — onde cada publicação reflete exatamente aquilo que cada personagem mais gosta de compartilhar e ver.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Identidade Visual
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Nome da Plataforma:** Yuvi
+* **Paleta de Cores:**
+  * Azul Principal: `#256AE4`
+  * Azul Intenso: `#3F25E4`
+  * Ciano Destaque: `#25CAE4`
+  * Rosa Yuvi (Curtidas e Stories): `#FF2A7A`
+  * Fundo Neutro: `#F8FAFC` | Texto Escuro: `#0F172A`
+* **Tipografia (Google Fonts):**
+  * **Cabin** — Títulos e nomes de usuário
+  * **Assistant** — Subtítulos e localizações
+  * **Rubik** — Textos, legendas e comentários
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Personagens e Conteúdo do Feed
+
+Todas as publicações são carregadas dinamicamente a partir de um arquivo estruturado em JSON (`src/data/posts.json`):
+
+* **Rapunzel (`@rapunzel.artes`):** Pinturas, paisagens e reflexões poéticas sobre arte e liberdade.
+* **Nico Wakatsuki (`@nico.witchwatch`):** Memes divertidos e situações mágicas do dia a dia.
+* **Serena Tsukino (`@serena.tsukino`):** Passeios com as amigas, momentos em família e registros fofos da sua gatinha Lua.
+* **Barbie (`@barbie.modamagia`):** Bastidores como atriz, visitas ao ateliê de alta-costura de sua tia em Paris e momentos com sua cadelinha.
+* **Luna (`@showdaluna.oficial`):** Curiosidades científicas, astronomia e descobertas sobre a natureza e as flores.
+
+---
+
+##  Funcionalidades e Desafios Implementados
+
+- [x] **Identidade Visual Customizada:** Nova logo, favicon, paleta de cores e tipografia própria.
+- [x] **Feed Dinâmico via JSON:** Publicações gerenciadas diretamente pelo arquivo `posts.json`.
+- [x] **Curtidas Interativas:** Botão de curtir (e duplo clique na imagem) que alterna o ícone para o coração rosa e atualiza o contador em tempo real.
+- [x] **Sistema de Comentários:** Exibição de comentários e formulário funcional para publicar novos comentários em cada post.
+- [x] **Barra de Stories e Tela de Perfil:** Stories interativos que filtram as publicações por personagem ao clicar, além de uma aba dedicada à visualização de perfil.
+
+---
+
+
+---
+
+##  Tecnologias Utilizadas
+
+* **React**
+* **Vite**
+* **React Icons**
+* **CSS3** (Variáveis CSS, Flexbox e CSS Grid)
+
+---
+
+##  Como executar o projeto localmente
+
+1. Clone este repositório:
+   ```bash
+   git clone [https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git](https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git)
