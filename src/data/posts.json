@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "username": "rapunzel.artes",
+    "displayName": "Rapunzel",
+    "subtitle": "Ateliê do Reino de Corona",
+    "avatar": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=200&q=80",
+    "image": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?auto=format&fit=crop&w=900&q=80",
+    "tag": "Arte & Poesia",
+    "caption": "Onde a luz toca a tela, nasce um novo horizonte. Pintar cada detalhe da paisagem me lembra que o mundo lá fora é infinito e cheio de cores esperando para serem descobertas.",
+    "likes": 1240,
+    "liked": false,
+    "comments": [
+      { "user": "serena.tsukino", "text": "Que pintura mais linda! Parece um sonho ✨" }
+    ]
+  },
+  {
+    "id": 2,
+    "username": "nico.witchwatch",
+    "displayName": "Nico Wakatsuki",
+    "subtitle": "Academia de Magia • Meme do Dia",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80",
+    "image": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=900&q=80",
+    "tag": "Magia & Humor",
+    "caption": "POV: Você tentou lançar um feitiço simples para arrumar o quarto em 5 segundos e acabou fazendo os livros flutuarem pela sala inteira... de novo! 🪄✨",
+    "likes": 3420,
+    "liked": false,
+    "comments": [
+      { "user": "showdaluna.oficial", "text": "Queria testar a física dessa gravidade mágica! 🔭" }
+    ]
+  },
+  {
+    "id": 3,
+    "username": "serena.tsukino",
+    "displayName": "Serena Tsukino",
+    "subtitle": "Tóquio • Passeio com a Lua 🐱",
+    "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=200&q=80",
+    "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=900&q=80",
+    "tag": "Família & Pets",
+    "caption": "Tarde perfeita depois do passeio com as meninas! Olha a carinha da Lua descansando depois de brincar a tarde toda. Nada melhor do que chegar em casa e curtir o papai, a mamãe e até o Shingo (quando ele não me provoca).",
+    "likes": 2890,
+    "liked": false,
+    "comments": [
+      { "user": "barbie.modamagia", "text": "A Lua está cada dia mais fofa! 💖" }
+    ]
+  },
+  {
+    "id": 4,
+    "username": "barbie.modamagia",
+    "displayName": "Barbie",
+    "subtitle": "Ateliê Tia Millicent • Paris, França",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=80",
+    "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=900&q=80",
+    "tag": "Moda & Bastidores",
+    "caption": "Direto dos bastidores do set para Paris! Vim visitar o ateliê da minha tia e acompanhar de perto cada croqui e tecido incrível que ela está criando. E claro, a Sequin veio junto para inspecionar tudo! 🐾👗",
+    "likes": 5120,
+    "liked": false,
+    "comments": [
+      { "user": "rapunzel.artes", "text": "Esses vestidos são verdadeiras obras de arte!" }
+    ]
+  },
+  {
+    "id": 5,
+    "username": "showdaluna.oficial",
+    "displayName": "Luna",
+    "subtitle": "Laboratório de Descobertas",
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=200&q=80",
+    "image": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&w=900&q=80",
+    "tag": "Ciência & Astronomia",
+    "caption": "Eu quero saber! Você sabia que a luz das estrelas que vemos hoje viajou milhares de anos pelo espaço até chegar aos nossos olhos? E amanhã tem vídeo novo descobrindo como as flores seguem o sol! 🌌🌻",
+    "likes": 4150,
+    "liked": false,
+    "comments": [
+      { "user": "nico.witchwatch", "text": "O universo é pura magia científica!" }
+    ]
+  }
+]
